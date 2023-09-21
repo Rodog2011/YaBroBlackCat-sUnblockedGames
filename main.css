@@ -9,7 +9,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    background-color: #01c7fcff;
     color: #ffffff;
     display: flex;
     height: 7vw;
@@ -19,6 +19,11 @@ nav {
     padding: 0 1%;
     z-index: 5;
     margin: auto;
+}
+
+.yt {
+  height: 80%;
+  width: auto;
 }
 
 nav img {
